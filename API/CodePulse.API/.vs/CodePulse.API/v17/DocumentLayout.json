@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\repositories\\implmentation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implmentation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,22 +28,9 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implmentation\\CategoryRepository.cs",
               "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implmentation\\CategoryRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Repositories\\Implmentation\\CategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA8AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T20:00:32.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T19:59:58.838Z",
+              "WhenOpened": "2024-07-09T11:38:07.322Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +41,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
               "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwDwAAAAgAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAowHAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T19:58:52.376Z",
               "EditorCaption": ""
