@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:42:50.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateBlogPostRequestDto.cs",
-              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:22:22.775Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -58,9 +24,9 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
               "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCcAAAAMAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwE0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:21:52.88Z",
+              "WhenOpened": "2024-07-10T05:15:18.455Z",
               "EditorCaption": ""
             }
           ]
