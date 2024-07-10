@@ -22,7 +22,11 @@ namespace CodePulse.API.Repositories.Implmentation
 
         public async Task<IEnumerable<BlogPost>> GetAllAsync()
         {
-            return await dbContext.BlogPosts.ToListAsync();
+            //return await dbContext.BlogPosts.ToListAsync();
+
+            //for fetching categories too, EF provide us method which we can use to fetch all the related entities as well
+            //this stmt says that: we also trying to fetch the categories with the blogposts
+            return await dbContext.BlogPosts.Include(x=>x.Categories).ToListAsync();
         }
     }
 }

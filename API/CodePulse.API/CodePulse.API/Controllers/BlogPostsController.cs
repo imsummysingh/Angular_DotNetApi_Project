@@ -12,9 +12,12 @@ namespace CodePulse.API.Controllers
     public class BlogPostsController : ControllerBase
     {
         private readonly IBlogPostRepository blogPostRepository;
-        public BlogPostsController(IBlogPostRepository blogPostRepository)
+        private readonly ICategoryRepository categoryRepository;
+
+        public BlogPostsController(IBlogPostRepository blogPostRepository, ICategoryRepository categoryRepository)
         {
             this.blogPostRepository = blogPostRepository;
+            this.categoryRepository = categoryRepository;
         }
         [HttpPost]
         public async Task<IActionResult> CreateBlogPost([FromBody]CreateBlogPostRequestDto request)
@@ -31,8 +34,18 @@ namespace CodePulse.API.Controllers
                 UrlHandle = request.UrlHandle,
                 IsVisible = request.IsVisible,
                 PublishedDate = request.PublishedDate,
-                Author = request.Author
+                Author = request.Author,
+                Categories= new List<Category>()
             };
+
+            //for adding category from UI to db
+            foreach (var categoryGuid in request.Categories)
+            {
+                var existingCategory = await categoryRepository.GetById(categoryGuid);
+                if (existingCategory != null) {
+                    blogPost.Categories.Add(existingCategory);
+                }
+            }
 
             blogPost = await blogPostRepository.CreateAsync(blogPost); //will return the updated object
 
@@ -47,7 +60,15 @@ namespace CodePulse.API.Controllers
                 UrlHandle = blogPost.UrlHandle,
                 IsVisible = blogPost.IsVisible,
                 PublishedDate = blogPost.PublishedDate,
-                Author = blogPost.Author
+                Author = blogPost.Author,
+                //sending back the blogpost with catgeories that are added to it
+                //we are also converting sql stmt using linq to list to pass it to dto then which it can access
+                Categories = blogPost.Categories.Select(x => new CategoryDto
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    UrlHandle = x.UrlHandle,
+                }).ToList()
             };
 
             return Ok (response);
@@ -72,7 +93,13 @@ namespace CodePulse.API.Controllers
                     UrlHandle = blogPost.UrlHandle,
                     IsVisible = blogPost.IsVisible,
                     PublishedDate = blogPost.PublishedDate,
-                    Author = blogPost.Author
+                    Author = blogPost.Author,
+                    Categories = blogPost.Categories.Select(x => new CategoryDto
+                    {
+                        Id = x.Id,
+                        Name = x.Name,
+                        UrlHandle = x.UrlHandle,
+                    }).ToList()
                 });
             }
             return Ok (response);
