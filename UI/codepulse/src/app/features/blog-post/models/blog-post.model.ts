@@ -5,10 +5,10 @@ export interface BlogPost{
     title:string;
     shortDescription:string;
     content:string;
-    fetauredImageUrl:string;
+    featuredImageUrl:string;
     urlHandle:string;
     author:string;
-    PublishedDate:Date;
+    publishedDate:Date;
     isVisible:boolean;
     categories: Category[];
 }
