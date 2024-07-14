@@ -13,5 +13,6 @@ namespace CodePulse.API.Data
         //DbSet represents the collection of entities from a particular type, in a relational database
         public DbSet<BlogPost> BlogPosts { get; set; }
         public DbSet<Category> Categories { get; set; } 
+        public DbSet<BlogImage> BlogImages { get; set; }    
     }
 }

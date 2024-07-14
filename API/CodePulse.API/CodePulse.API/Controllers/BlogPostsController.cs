@@ -178,6 +178,7 @@ namespace CodePulse.API.Controllers
                 return NotFound();
             }
 
+            //convert domain to dto
             var response = new BlogPostDto
             {
                 Id = blogPost.Id,

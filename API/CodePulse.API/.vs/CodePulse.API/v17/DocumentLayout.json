@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\repositories\\implmentation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implmentation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogPostRepository.cs",
-              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implmentation\\BlogPostRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implmentation\\BlogPostRepository.cs",
-              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implmentation\\BlogPostRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Implmentation\\BlogPostRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T11:02:18.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlogPostsController.cs",
-              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAgwOQAAAAkAAAA",
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:55:41.102Z",
+              "WhenOpened": "2024-07-14T14:51:06.19Z",
               "EditorCaption": ""
             }
           ]
