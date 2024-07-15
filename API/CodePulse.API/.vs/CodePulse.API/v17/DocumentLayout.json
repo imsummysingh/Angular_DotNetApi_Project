@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|d:\\angular_dotnetapi_project\\api\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D055E0E0-2FFE-49C3-BFDF-A283B1913354}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlogPostsController.cs",
-              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAADwv5EAAABdAAAA",
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Data\\AuthDbContext.cs",
+              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "CodePulse.API\\Data\\AuthDbContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T09:19:32.639Z",
+              "WhenOpened": "2024-07-15T12:54:02.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
+              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeToolTip": "CodePulse.API\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T11:48:44.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Angular_DotNetApi_Project\\API\\CodePulse.API\\CodePulse.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAgwCwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:55:44.798Z",
               "EditorCaption": ""
             }
           ]
